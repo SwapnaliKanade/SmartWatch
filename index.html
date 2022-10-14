@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SmartWatch</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="smartWatch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload=smartTime()>    
+    <div class="row">
+        <div class="col-6">
+            <div class="title">
+                <span class="smart">WearMe</span> 
+               
+            </div>
+        </div>
+        <!--Sneha Chawale-->
+        <div class="col-6" >
+            <div class ="outerbox"></div>
+            
+            <div class ="innerbox"id="timer">
+                <span class="fa fa-clock-o" id="timertym" ondblclick="messageIcon('hs')"></span>
+                <div id ="timeTim" ></div>
+                <div>
+                    <h1 id=timerTimer><time >00:00:00</time></h1>
+                    <button id="start"><i class="fa fa-play" id="play"></i></button>
+                    <button id="stop"><i class="fa fa-pause" id="pause"></i></button>
+                    <button id="clear"><i class="fa fa-retweet"id="reset"></i></button>                
+                </div>
+
+                <div class="listWrapper">
+                  <!-- <ul id='laps'> -->
+                  <li></li>
+                </ul></div>
+              </div>
+            <!--Swapnali Kanade-->
+            <div class ="innerbox"id="music" >
+                <span class="fa fa-music" id="musicMsc" ondblclick="messageIcon('hs')"></span> 
+                <div id ="timeMus" ></div>
+                <div><iframe src="https://open.spotify.com/embed/album/7qvYMLfMbEbvCnGoJUBgym?utm_source=generator" id="spotify"position="absolute" width="90%" 
+                                   height="60%" frameborder="0" style border-radius="20%" allowtransparency="true"
+                                   allow="encrypted-media"></iframe></div>
+              
+            </div>
+            <!--Kalyani Salunkhe-->
+    
+            <div class ="innerbox" id="message" >
+                <span class="fa fa-envelope" id="messageMsg" ondblclick="messageIcon('hs')"></span> 
+                <div id ="timeMsg" ></div> 
+                <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        SHREYA
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        Hello!
+    
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          PRIYA
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body" style height="1em">
+        Hii...
+      </div>
+    </div>
+  </div>
+</div>
+ </div>
+
+           <!--Aacha Nimje-->
+      
+            <div class ="innerbox" id="homescreen">
+                <div id ="time"></div> 
+                <div id="day"></div> 
+                <div id ="date"></div>
+                <div class ="circle"></div>
+                <p>
+                    <a class="fa fa-bars" id=menu data-toggle="collapse" href="#collapseExample" role="button" 
+                        aria-expanded="false" aria-controls="collapseExample"></a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <span class="fa fa-envelope" id="messageicon" onclick="messageIcon('me')"></span>
+                    <span class="fa fa-music" id="musicicon" onclick="messageIcon('mu')"></span>
+                    <span class="fa fa-clock-o" id="timericon" onclick="messageIcon('cl')"></span>
+                </div>
+            </div>
+
+            <!--Shradha Bhosale-->
+        
+            <div class ="upperstrap"></div>
+            <div class ="lowerstrap"></div>  
+        </div> 
+     </div> 
+</body>
+<script type="text/javascript" src="smartWatch.js"></script>
+<script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="smartWatch.js"></script>
+</html>

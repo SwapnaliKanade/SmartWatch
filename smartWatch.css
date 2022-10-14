@@ -1,0 +1,364 @@
+
+
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.title {
+  margin: 0 !important;
+}
+/* nav{
+  color: black;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 8%;
+} */
+nav ul li{
+  color: rgb(23, 22, 22);
+  display: inline-block;
+  list-style: none;
+  margin:10px 20px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.title {
+  position: relative;
+  display: block;
+  background-color: #909497;
+  height: 100vh;
+  width: 50vw;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 47%;
+  font-weight: bold;
+}
+.smart {
+  color: rgb(89, 12, 65);
+  font-size: 150%;
+  /* background-color: antiquewhite; */
+  font-style: italic;
+}
+/* .watch {
+  color: rgb(79, 5, 49);
+} */
+.outerbox {
+  position: absolute;
+  width: 299px;
+  height: 332px;
+  margin: 10em;
+  background: #685d5d;
+  border-radius: 57px;
+}
+
+.innerbox {
+  position: absolute;
+  width: 259px;
+  height: 290px;
+  margin: 11.3em;
+  background: rgb(13, 13, 13);
+  border-radius: 52px;
+}
+
+.upperstrap {
+  border-radius: 150px 150px 0% 0%;
+  margin-top: 3.75em;
+  margin-left: 13.8em;
+  position: absolute;
+  border-bottom: 100px solid rgb(46, 12, 95);
+  border-left: 27px solid transparent;
+  border-right: 27px solid transparent;
+  height: 0em;
+  width: 11em;
+}
+
+.lowerstrap {
+  border-radius: 150px 150px 0% 0%;
+  margin-top: 30.7em;
+  margin-left: 13.9em;
+  transform: rotate(179.67deg);
+  position: absolute;
+  border-bottom: 100px solid rgb(46, 12, 95);
+  border-left: 27px solid transparent;
+  border-right: 27px solid transparent;
+  height: 20px;
+  width: 11em;
+}
+#time {
+  position: absolute;
+  width: 182px;
+  height: 61px;
+  margin-top: 1em;
+  margin-left: 11%;
+  text-align: centre;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 75px;
+  color: yellow;
+}
+
+#day {
+  position: absolute;
+  width: 46px;
+  height: 11px;
+  margin-top: 3.5em;
+  margin-left: 11em;
+  text-align: centre;
+  font-family: arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 14px;
+  color: white;
+}
+
+#date {
+  position: absolute;
+  width: 89px;
+  height: 30px;
+  margin-top: 3em;
+  margin-left: 3.5em;
+  font-family: arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 29px;
+  color: white;
+}
+#messageicon {
+  position: absolute;
+  color: #13ede0;
+  font-size: 2.5em;
+  margin-left: 1em;
+  cursor: pointer;
+}
+#messageicon:hover {
+  color: white;
+}
+#musicicon {
+  position: absolute;
+  color: #13ede0;
+  font-size: 2.5em;
+  margin-left: 3em;
+  cursor: pointer;
+}
+#musicicon:hover {
+  color: white;
+}
+#timericon {
+  position: absolute;
+  color: #13ede0;
+  font-size: 2.5em;
+  margin-left: 5em;
+  cursor: pointer;
+}
+#timericon:hover {
+  color: white;
+}
+#menu {
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  margin-top: -1.25em;
+  margin-left: 3.4em;
+}
+#menu:hover {
+  color: yellow;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #685d5d;
+  border-radius: 50%;
+  margin-top: 10.2em;
+  margin-left: 6.05em;
+}
+#messageMsg {
+  position: absolute;
+  color: #13ede0;
+  font-size: 1.5em;
+  margin-top: 0.8em;
+  margin-left: 8em;
+  cursor: pointer;
+}
+#musicMsc {
+  position: absolute;
+  color: red;
+  font-size: 1.5em;
+  margin-top: 0.8em;
+  margin-left: 8em;
+  cursor: pointer;
+}
+#timertym {
+  position: absolute;
+  color: white;
+  font-size: 1.5em;
+  margin-top: 0.8em;
+  margin-left: 8em;
+  cursor: pointer;
+}
+#timeMsg {
+  position: absolute;
+  width: 18px;
+  height: 15px;
+  margin-top: 1em;
+  margin-left: 11%;
+  text-align: centre;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: white;
+}
+#timeMsg {
+  position: absolute;
+  width: 18px;
+  height: 15px;
+  margin-top: 1em;
+  margin-left: 11%;
+  text-align: centre;
+  font-family: arial;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: white;
+}
+#timeTim {
+  position: absolute;
+  width: 18px;
+  height: 15px;
+  margin-top: 1em;
+  margin-left: 11%;
+  text-align: centre;
+  font-family: arial;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: white;
+}
+#timeMus {
+  position: absolute;
+  width: 18px;
+  height: 15px;
+  margin-top: 1em;
+  margin-left: 11%;
+  text-align: centre;
+  font-family: arial;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: white;
+}
+#timerTimer {
+  position: absolute;
+  color: red;
+  font-family: arial;
+  font-weight: normal;
+  font-size: 60px;
+  margin-top: 1em;
+  margin-left: 0.25em;
+}
+#start {
+  position: absolute;
+  border-radius: 100%;
+  border: none;
+  outline: 0px;
+  font-family: arial;
+  font-weight: normal;
+  height: 40px;
+  width: 40px;
+  margin-top: 9em;
+  margin-left: 1em;
+}
+#stop {
+  position: absolute;
+  border-radius: 100%;
+  border: none;
+  outline: 0px;
+  font-family: arial;
+  font-weight: normal;
+  height: 40px;
+  width: 40px;
+  margin-top: 9em;
+  margin-left: 5em;
+}
+#clear {
+  position: absolute;
+  border-radius: 100%;
+  border: none;
+  outline: 0px;
+  font-family: arial;
+  font-weight: normal;
+  height: 40px;
+  width: 40px;
+  margin-top: 9em;
+  margin-left: 9em;
+}
+/* #lap {
+  position: absolute;
+  border-radius: 100%;
+  border: none;
+  outline: 0px;
+  font-family: arial;
+  font-weight: normal;
+  height: 40px;
+  width: 40px;
+  margin-top: 9em;
+  margin-left: 13em;
+  font-weight: bold;
+}
+#laps {
+  color: white;
+}
+.listWrapper {
+  max-height: 70px;
+  overflow-y: auto;
+  max-width: 100px;
+  margin-top: 12em;
+  margin-left: 5em;
+} */
+
+#play {
+  font-size: 2em;
+  margin-left: 0.15em;
+}
+#pause {
+  font-size: 1.5em;
+}
+#reset {
+  font-size: 2em;
+  margin-left: -0.1em;
+}
+#musicplay {
+  font-size: 1.5em;
+  margin-left: 0.15em;
+  color: red;
+}
+#musicforward {
+  font-size: 2em;
+  color: red;
+}
+#musicbackward {
+  font-size: 2em;
+  color: red;
+}
+#spotify {
+  margin-left: 13px;
+  margin-top: 7em;
+}
+#music {
+  background-color: black;
+}
+#accordionExample {
+  height: 3em;
+  width: 13em;
+  border-radius: 70px;
+  margin-top: 4em;
+  margin-left: 1.8em;
+}
